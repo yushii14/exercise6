@@ -75,9 +75,6 @@
       .hgroup {
         margin-top: 40px;
      
-
-    
-
       }
 
       figure {
@@ -103,7 +100,6 @@
       left: 650px;
       box-sizing: border-box;
       
-
       }
 
       h2 {
@@ -121,8 +117,26 @@
       }
 
       #sidebar h2 {
-        padding: 30px 0px 10px 0px;
-        
+        padding: 30px 0px 10px 0px;  
+      }
+        #nav ul {
+         margin: 0;
+        padding: 0;
+      }
+      
+      #nav li {
+      list-style: none;
+      display: inline;
+      }
+         #nav a {
+      text-decoration: none; 
+      margin-right: -5px;
+      background-color: grey;
+      padding: 5px 92.5px;
+      color: white;
+      }
+        #nav a:hover {
+      color: #ccc;
       }
   
     </style>
@@ -133,9 +147,13 @@
       <div id="header">
         <h1>Yoko's Kitchen</h1>
         <div id="nav">
-          <!--
-                    Instructions: Add a list using the <ul> element and the <li> element to create a link for each menu item. Set the href value to empty. Normally you would put the relative path of page you are linking to, but we are creating a placeholder.
-                    -->
+         <ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/">Classes</a></li>
+  <li><a href="/">Catering</a></li>
+  <li><a href="/">About</a></li>
+</ul>
+
         </div>
       </div>
       <div class="courses">
@@ -148,7 +166,7 @@
             <h2>Japanese Vegetarian</h2>
             <h3>Five week course in London</h3>
           </div>
-          <p>A five week introduction to traditional Japanese vegetarian meals, tefaching you a selection of rice and noodle dishes.</p>
+          <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
         </div>
         <div class="article">
           <figure>
