@@ -74,7 +74,7 @@
 
       .hgroup {
         margin-top: 40px;
-     
+
       }
 
       figure {
@@ -94,12 +94,12 @@
       }
 
       #sidebar {
-      padding: 0px 0px 0px 20px;
-      width: 280px;
-      position: absolute;
-      left: 650px;
-      box-sizing: border-box;
-      
+        padding: 0px 0px 0px 20px;
+        width: 280px;
+        position: absolute;
+        left: 650px;
+        box-sizing: border-box;
+
       }
 
       h2 {
@@ -117,28 +117,35 @@
       }
 
       #sidebar h2 {
-        padding: 30px 0px 10px 0px;  
+        padding: 30px 0px 10px 0px;
       }
-        #nav ul {
-         margin: 0;
+
+      ul {
+        list-style-type: none;
+        margin: 0;
         padding: 0;
+        overflow: hidden;
+        background-color: grey;
+        font-family: "Helvetica", sans serif;
+        font-weight: 700;
+
       }
-      
-      #nav li {
-      list-style: none;
-      display: inline;
+
+      li {
+        float: left;
       }
-         #nav a {
-      text-decoration: none; 
-      margin-right: -5px;
-      background-color: grey;
-      padding: 5px 92.5px;
-      color: white;
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 4px 90.4px;
+        text-decoration: none;
       }
-        #nav a:hover {
-      color: #ccc;
+
+      li a:hover {
+        background-color: dimgrey;
       }
-  
     </style>
 
   </head>
@@ -147,12 +154,12 @@
       <div id="header">
         <h1>Yoko's Kitchen</h1>
         <div id="nav">
-         <ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="/">Classes</a></li>
-  <li><a href="/">Catering</a></li>
-  <li><a href="/">About</a></li>
-</ul>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Classes</a></li>
+            <li><a href="/">Catering</a></li>
+            <li><a href="/">About</a></li>
+          </ul>
 
         </div>
       </div>
